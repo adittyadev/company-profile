@@ -135,30 +135,6 @@ function About() {
           </div>
         </div>
       </section>
-
-      {/* Contact */}
-      <section className="bg-black text-white px-6 md:px-16 py-20">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-8">
-          <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-gray-400">
-              Start a Project
-            </p>
-
-            <h2 className="text-3xl md:text-6xl font-semibold mt-5">
-              Have an idea?
-              <br />
-              <span className="text-gray-400">Let's build it.</span>
-            </h2>
-          </div>
-
-          <Link
-            to="/contact"
-            className="bg-white text-black px-8 py-4 text-sm font-semibold self-start hover:bg-gray-200 transition"
-          >
-            CONTACT US ↗
-          </Link>
-        </div>
-      </section>
     </main>
   );
 }

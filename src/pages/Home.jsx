@@ -46,22 +46,6 @@ function Home() {
               aman, dan mudah digunakan.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-8">
-              <Link
-                to="/about"
-                className="bg-black text-white px-8 py-4 text-sm tracking-wider text-center hover:bg-gray-800 transition"
-              >
-                ABOUT DOULYRA
-              </Link>
-
-              <Link
-                to="/contact"
-                className="border border-black px-8 py-4 text-sm tracking-wider text-center hover:bg-black hover:text-white transition"
-              >
-                CONTACT US
-              </Link>
-            </div>
-
             <p className="text-xs text-gray-400 mt-10 md:mt-12 tracking-widest">
               DOULYRA® — SMART TECHNOLOGY SOLUTIONS
             </p>
@@ -147,24 +131,6 @@ function Home() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="bg-black text-white px-6 md:px-16 py-16 md:py-20">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-          <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
-            Punya ide produk digital?
-            <br />
-            <span className="text-gray-400">Mari kita wujudkan.</span>
-          </h2>
-
-          <Link
-            to="/contact"
-            className="bg-white text-black px-8 py-4 text-sm tracking-wider text-center hover:bg-gray-200 transition md:shrink-0"
-          >
-            HUBUNGI KAMI
-          </Link>
         </div>
       </section>
     </main>

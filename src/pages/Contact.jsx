@@ -78,20 +78,6 @@ function Contact() {
                   </p>
                 ))}
               </div>
-
-              <div className="bg-gray-100 p-8 md:p-10 mt-10">
-                <h3 className="text-2xl font-bold">DOULYRA</h3>
-
-                <p className="text-gray-600 mt-4 leading-relaxed">
-                  Simple technology.
-                  <br />
-                  Real impact.
-                </p>
-
-                <p className="text-xs tracking-widest text-gray-400 mt-12">
-                  DOULYRA® — SMART TECHNOLOGY SOLUTIONS
-                </p>
-              </div>
             </div>
 
             {/* Right: Form */}

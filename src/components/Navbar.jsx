@@ -7,10 +7,13 @@ function Navbar() {
     }`;
 
   return (
-    <nav className="bg-white border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-16 py-6 flex items-center justify-between">
+    <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200">
+      <div className="max-w-7xl mx-auto px-6 md:px-16 py-4 md:py-5 flex items-center justify-between">
         {/* Brand */}
-        <NavLink to="/" className="text-2xl font-bold tracking-[0.15em]">
+        <NavLink
+          to="/"
+          className="text-xl md:text-2xl font-bold tracking-[0.15em]"
+        >
           DOULYRA<span className="text-gray-400">.</span>
         </NavLink>
 
